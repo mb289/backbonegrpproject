@@ -1,0 +1,8 @@
+div{
+	max-width: 100%
+	background-image: radial-gradient(center center, circle cover, #3300FF, #33FF33);
+	background-image: -o-radial-gradient(center center, circle cover, #3300FF, #33FF33);
+	background-image: -ms-radial-gradient(center center, circle cover, #3300FF, #33FF33);
+	background-image: -moz-radial-gradient(center center, circle cover, #3300FF, #33FF33);
+	background-image: -webkit-radial-gradient(center center, circle cover, #3300FF, #33FF33);
+}
