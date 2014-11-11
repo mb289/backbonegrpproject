@@ -14,9 +14,10 @@
             this.options.$container.append(this.el);
             this.render();
         },
-        template: "<h1>{title}</h1><hr><ul><li>{authors}</li><li>{categories}</li></ul>",
+        template: "<h1>{volumeInfo.description}</h1>",
         render: function() {
-            this.el.innerHTML = _.template(this.template, this.options);
+
+            this.el.innerHTML = _.template(this.template, this.model);
         }
     });
 
@@ -53,6 +54,7 @@
         console.log(url);
         
         return $.get(url).then(function(data) {
+            console.log(data);
             return data;
         });
     };
@@ -68,7 +70,7 @@
                 throw new Error("Shit Doesn't Work!");
             }
             data.items.forEach(function(data) {
-                new containerView(data);
+                new containerView({ model: data});
             });
         });
     };
