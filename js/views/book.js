@@ -27,16 +27,29 @@
             this.init();
         }
         //https://www.googleapis.com/books/v1/volumes?q=search+terms:keyes&key=AIzaSyBU9KgSbBKQMno6QgEoB75TPSRN1c16fLI
-    GoogleBook.prototype.queryAPI = function(search, terms) {
+    
+    GoogleBook.prototype.createInputObject = function(){
+
+        var input = {};
+        $(':input').each(function(){
+            input[this.name] = this.value;
+        });
+        console.log(input);
+        return input;
+    }
+
+    GoogleBook.prototype.queryAPI = function() {
+        
+        var input = this.createInputObject();
+
         var url = [
             "https://www.googleapis.com/books/v1/volumes",
-            "?q=search+",
-            this.options.search,
-            "terms:",
-            this.options.terms,
-            "keyes&key=",
+            "?q=",
+            this.input.genre,
+            "&key=",
             this.options.key,
         ];
+        
         return $.get(url.join('')).then(function(data) {
             return data;
         });
