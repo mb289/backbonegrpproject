@@ -37,6 +37,7 @@
         });
         console.log(input);
         return input;
+        
     }
 
     GoogleBook.prototype.queryAPI = function() {
