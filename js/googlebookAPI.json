@@ -1,0 +1,828 @@
+{
+ "kind": "books#volumes",
+ "totalItems": 1437,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "XkPB4icvvQIC",
+   "etag": "SmeDtUYxPY0",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/XkPB4icvvQIC",
+   "volumeInfo": {
+    "title": "Sammy Keyes and the Search for Snake Eyes",
+    "authors": [
+     "Wendelin Van Draanen"
+    ],
+    "publisher": "Yearling",
+    "publishedDate": "2008-12-24",
+    "description": "\"The most winning junior detective ever in teen lit. (Take that, Nancy Drew!)\" —Midwest Children's Book Review Sammy's softball team is in contention for the Junior Slugger's Cup, and all she wants to do is hunker down behind the home plate and catch strikes. But Heather Acosta brings new meaning to the term \"foul ball\" as she schemes to get Sammy kicked off the team. Then Sammy is thrown a wild pitch by a frantic girl at the mall. The girl asks Sammy to watch her bag and dashes off before Sammy discovers that the bag she's left holding contains a baby! When the girl doesn't return, Sammy decides to go find her. A heart-pounding search ensues, and leads to some situations that are definitely not covered in the softball playbook. The Sammy Keyes mysteries are fast-paced, funny, thoroughly modern, and true whodunits. Each mystery is exciting and dramatic, but it's the drama in Sammy's personal life that keeps readers coming back to see what happens next with her love interest Casey, her soap-star mother, and her mysterious father. From the Trade Paperback edition.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780307545299"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0307545296"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 320,
+    "printType": "BOOK",
+    "categories": [
+     "Juvenile Fiction"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 16,
+    "contentVersion": "0.2.1.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://bks7.books.google.com/books?id=XkPB4icvvQIC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://bks7.books.google.com/books?id=XkPB4icvvQIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=XkPB4icvvQIC&printsec=frontcover&dq=search+terms:keyes&hl=&cd=1&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=XkPB4icvvQIC&dq=search+terms:keyes&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Sammy_Keyes_and_the_Search_for_Snake_Eye.html?hl=&id=XkPB4icvvQIC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 3.15,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 2.52,
+     "currencyCode": "USD"
+    },
+    "buyLink": "http://books.google.com/books?id=XkPB4icvvQIC&dq=search+terms:keyes&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 3150000.0,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 2520000.0,
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Sammy_Keyes_and_the_Search_for_Snake_Eye-sample-epub.acsm?id=XkPB4icvvQIC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Sammy_Keyes_and_the_Search_for_Snake_Eye-sample-pdf.acsm?id=XkPB4icvvQIC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=XkPB4icvvQIC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "From the Trade Paperback edition."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "HRmRqtD6oPgC",
+   "etag": "dFhqjKeL1gg",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/HRmRqtD6oPgC",
+   "volumeInfo": {
+    "title": "Rap Music and Street Consciousness",
+    "authors": [
+     "Cheryl Lynette Keyes"
+    ],
+    "publisher": "University of Illinois Press",
+    "publishedDate": "2004",
+    "description": "Serves as a history of rap music. This book traces the genre's history from its roots in West African bardic traditions, the Jamaican dancehall tradition, and African American vernacular expressions to its permeation of the cultural mainstream as a major tenet of hip-hop lifestyle and culture.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0252072014"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780252072017"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 302,
+    "printType": "BOOK",
+    "categories": [
+     "Music"
+    ],
+    "averageRating": 5.0,
+    "ratingsCount": 1,
+    "contentVersion": "1.0.1.0.preview.1",
+    "imageLinks": {
+     "smallThumbnail": "http://bks7.books.google.com/books?id=HRmRqtD6oPgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://bks7.books.google.com/books?id=HRmRqtD6oPgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=HRmRqtD6oPgC&printsec=frontcover&dq=search+terms:keyes&hl=&cd=2&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=HRmRqtD6oPgC&dq=search+terms:keyes&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Rap_Music_and_Street_Consciousness.html?hl=&id=HRmRqtD6oPgC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=HRmRqtD6oPgC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "This book traces the genre&#39;s history from its roots in West African bardic traditions, the Jamaican dancehall tradition, and African American vernacular expressions to its permeation of the cultural mainstream as a major tenet of hip-hop ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "mpbt9Gv9tagC",
+   "etag": "X/cEgnvQwiQ",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/mpbt9Gv9tagC",
+   "volumeInfo": {
+    "title": "Euphemania",
+    "subtitle": "Our Love Affair with Euphemisms",
+    "authors": [
+     "Ralph Keyes"
+    ],
+    "publisher": "Little, Brown",
+    "publishedDate": "2010-12-14",
+    "description": "How did die become kick the bucket, underwear become unmentionables, and having an affair become hiking the Appalachian trail? Originally used to avoid blasphemy, honor taboos, and make nice, euphemisms have become embedded in the fabric of our language. EUPHEMANIA traces the origins of euphemisms from a tool of the church to a form of gentility to today's instrument of commercial, political, and postmodern doublespeak. As much social commentary as a book for word lovers, EUPHEMANIA is a lively and thought-provoking look at the power of words and our power over them.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780316121958"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0316121959"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 288,
+    "printType": "BOOK",
+    "categories": [
+     "Language Arts & Disciplines"
+    ],
+    "averageRating": 3.5,
+    "ratingsCount": 24,
+    "contentVersion": "0.0.2.0.preview.2",
+    "imageLinks": {
+     "smallThumbnail": "http://bks6.books.google.com/books?id=mpbt9Gv9tagC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://bks6.books.google.com/books?id=mpbt9Gv9tagC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=mpbt9Gv9tagC&printsec=frontcover&dq=search+terms:keyes&hl=&cd=3&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=mpbt9Gv9tagC&dq=search+terms:keyes&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Euphemania.html?hl=&id=mpbt9Gv9tagC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 11.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 7.79,
+     "currencyCode": "USD"
+    },
+    "buyLink": "http://books.google.com/books?id=mpbt9Gv9tagC&dq=search+terms:keyes&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.199E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 7790000.0,
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Euphemania-sample-epub.acsm?id=mpbt9Gv9tagC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=mpbt9Gv9tagC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "EUPHEMANIA traces the origins of euphemisms from a tool of the church to a form of gentility to today&#39;s instrument of commercial, political, and postmodern doublespeak."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "d6JZryGvfxYC",
+   "etag": "4cCuGzyFV34",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/d6JZryGvfxYC",
+   "volumeInfo": {
+    "title": "The Quote Verifier",
+    "subtitle": "Who Said What, Where, and When",
+    "authors": [
+     "Ralph Keyes"
+    ],
+    "publisher": "Macmillan",
+    "publishedDate": "2007-04-01",
+    "description": "Our language is full of hundreds of quotations that are often cited but seldom confirmed. Ralph Keyes’s The Quote Verifier considers not only classic misquotes such as “Nice guys finish last,” and “Play it again, Sam,” but more surprising ones such as “Ain’t I a woman?” and “Golf is a good walk spoiled,” as well as the origins of popular sayings such as “The opera ain’t over till the fat lady sings,” “No one washes a rented car,” and “Make my day.” Keyes’s in-depth research routinely confounds widespread assumptions about who said what, where, and when. Organized in easy-to-access dictionary form, The Quote Verifier also contains special sections highlighting commonly misquoted people and genres, such as Yogi Berra and Oscar Wilde, famous last words, and misremembered movie lines. An invaluable resource for not just those with a professional need to quote accurately, but anyone at all who is interested in the roots of words and phrases, The Quote Verifier is not only a fascinating piece of literary sleuthing, but also a great read.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "1429906170"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9781429906173"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 416,
+    "printType": "BOOK",
+    "categories": [
+     "Reference"
+    ],
+    "averageRating": 5.0,
+    "ratingsCount": 1,
+    "contentVersion": "0.2.1.0.preview.2",
+    "imageLinks": {
+     "smallThumbnail": "http://bks0.books.google.com/books?id=d6JZryGvfxYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://bks0.books.google.com/books?id=d6JZryGvfxYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=d6JZryGvfxYC&printsec=frontcover&dq=search+terms:keyes&hl=&cd=4&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=d6JZryGvfxYC&dq=search+terms:keyes&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/The_Quote_Verifier.html?hl=&id=d6JZryGvfxYC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 7.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 7.59,
+     "currencyCode": "USD"
+    },
+    "buyLink": "http://books.google.com/books?id=d6JZryGvfxYC&dq=search+terms:keyes&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 7990000.0,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 7590000.0,
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/The_Quote_Verifier-sample-epub.acsm?id=d6JZryGvfxYC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=d6JZryGvfxYC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Ralph Keyes’s The Quote Verifier considers not only classic misquotes such as “Nice guys finish last,” and “Play it again, Sam,” but more surprising ones such as “Ain’t I a woman?” and “Golf is a good walk spoiled,” as ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "pIs9Em38dAoC",
+   "etag": "n8I5XHHgzGA",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/pIs9Em38dAoC",
+   "volumeInfo": {
+    "title": "Play of Flowers for Algernon",
+    "authors": [
+     "Robert Chambers"
+    ],
+    "publisher": "Heinemann",
+    "publishedDate": "1993",
+    "description": "The Heinemann Plays series offers contemporary drama and classic plays in durable classroom editions. Many have large casts and an equal mix of boy and girl parts. This play is a dramatization of Daniel Keyes's story about a retarded adult who desperately wants to be able to read and write.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0435232932"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780435232931"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 90,
+    "printType": "BOOK",
+    "categories": [
+     "English drama"
+    ],
+    "averageRating": 4.5,
+    "ratingsCount": 2,
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://bks2.books.google.com/books?id=pIs9Em38dAoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://bks2.books.google.com/books?id=pIs9Em38dAoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=pIs9Em38dAoC&printsec=frontcover&dq=search+terms:keyes&hl=&cd=5&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=pIs9Em38dAoC&dq=search+terms:keyes&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Play_of_Flowers_for_Algernon.html?hl=&id=pIs9Em38dAoC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=pIs9Em38dAoC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "The Heinemann Plays series offers contemporary drama and classic plays in durable classroom editions."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "CSax5C3D8TUC",
+   "etag": "ZEOzeyRi9TI",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/CSax5C3D8TUC",
+   "volumeInfo": {
+    "title": "Sammy Keyes and the Psycho Kitty Queen",
+    "authors": [
+     "Wendelin Van Draanen"
+    ],
+    "publisher": "Yearling",
+    "publishedDate": "2008-12-24",
+    "description": "\"The most winning junior detective ever in teen lit. (Take that, Nancy Drew!)\" —Midwest Children's Book Review It's Sammy's birthday, which should be a good thing, except that Dorito, Sammy's cat, is missing, and while Sammy's searching for him, she finds three dead cats in dumpsters around town. Worse still, Miss Kitty, a psycho cat lady, blames Sammy when it turns out one of the dead cats belonged to her. As if Sammy didn't have enough on her hands investigating these furry felonies, her mother has a confession to make: she lied about Sammy's age so she could start her in school a year early. So—surprise!—Sammy isn't turning 14 at all, she's going to be unlucky 13 for another whole year. Better luck next year, Sammy. . . . The Sammy Keyes mysteries are fast-paced, funny, thoroughly modern, and true whodunits. Each mystery is exciting and dramatic, but it's the drama in Sammy's personal life that keeps readers coming back to see what happens next with her love interest Casey, her soap-star mother, and her mysterious father. From the Hardcover edition.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0307545180"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780307545183"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 320,
+    "printType": "BOOK",
+    "categories": [
+     "Juvenile Fiction"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 25,
+    "contentVersion": "0.3.0.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://bks5.books.google.com/books?id=CSax5C3D8TUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://bks5.books.google.com/books?id=CSax5C3D8TUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=CSax5C3D8TUC&printsec=frontcover&dq=search+terms:keyes&hl=&cd=6&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=CSax5C3D8TUC&dq=search+terms:keyes&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Sammy_Keyes_and_the_Psycho_Kitty_Queen.html?hl=&id=CSax5C3D8TUC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 2.8,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 2.24,
+     "currencyCode": "USD"
+    },
+    "buyLink": "http://books.google.com/books?id=CSax5C3D8TUC&dq=search+terms:keyes&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 2800000.0,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 2240000.0,
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Sammy_Keyes_and_the_Psycho_Kitty_Queen-sample-epub.acsm?id=CSax5C3D8TUC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Sammy_Keyes_and_the_Psycho_Kitty_Queen-sample-pdf.acsm?id=CSax5C3D8TUC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=CSax5C3D8TUC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "From the Hardcover edition."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "LCZWAAAAMAAJ",
+   "etag": "hqDJ8wIBXAc",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/LCZWAAAAMAAJ",
+   "volumeInfo": {
+    "title": "Genealogy and history of the related Keyes, North and Cruzen families",
+    "subtitle": "with a sketch of the early Norths of England",
+    "authors": [
+     "Millard Fillmore Stipes"
+    ],
+    "publishedDate": "1914",
+    "industryIdentifiers": [
+     {
+      "type": "OTHER",
+      "identifier": "WISC:89061950622"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 642,
+    "printType": "BOOK",
+    "contentVersion": "full-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://bks2.books.google.com/books?id=LCZWAAAAMAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://bks2.books.google.com/books?id=LCZWAAAAMAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=LCZWAAAAMAAJ&printsec=frontcover&dq=search+terms:keyes&hl=&cd=7&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=LCZWAAAAMAAJ&dq=search+terms:keyes&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Genealogy_and_history_of_the_related_Key.html?hl=&id=LCZWAAAAMAAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FREE",
+    "isEbook": true,
+    "buyLink": "http://books.google.com/books?id=LCZWAAAAMAAJ&dq=search+terms:keyes&hl=&buy=&source=gbs_api"
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "ALL_PAGES",
+    "embeddable": true,
+    "publicDomain": true,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false,
+     "downloadLink": "http://books.google.com/books/download/Genealogy_and_history_of_the_related_Key.epub?id=LCZWAAAAMAAJ&hl=&output=epub&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "downloadLink": "http://books.google.com/books/download/Genealogy_and_history_of_the_related_Key.pdf?id=LCZWAAAAMAAJ&hl=&output=pdf&sig=ACfU3U1jox0w7OAgI4WPTJNqojl3TI69kg&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=LCZWAAAAMAAJ&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+    "quoteSharingAllowed": false
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "ZjCGYOdb5bMC",
+   "etag": "ocsMd+sI7Js",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/ZjCGYOdb5bMC",
+   "volumeInfo": {
+    "title": "Marketing IT Products and Services",
+    "authors": [
+     "Jessica Keyes"
+    ],
+    "publisher": "CRC Press",
+    "publishedDate": "2009-09-14",
+    "description": "Characterized by lightning quick innovation, abrupt shifts in technology, and shorter lifecycles, the marketing of IT products and services presents a unique set of challenges and often requires IT managers and developers to get involved in the marketing process. Marketing IT Products and Services is written to help busy IT managers and marketing managers get up to speed quickly and easily on what’s needed to develop effective marketing strategies and campaigns. Focusing on the unique issues involved, this one-stop resource provides everything needed to understand the roles, responsibilities, and management techniques essential for the development of successful strategies. It covers strategic market planning, targeting markets, researching markets, understanding the competition, integrating market and sales strategies, nuances of global markets, developing marketing budgets, pricing, and implementing marketing campaigns. A plethora of appendices included on the book’s CD allows you to get up and running right away. Aside from a complete marketing glossary, two complete marketing plans—one for a hardware product; the other for a software product—enable you to bypass the \"scut\" work of developing a marketing plan so you can focus on the creative aspects of marketing. Because a marketing plan is closely aligned with an organization’s business and strategic plans, this book provides you with templates for both of these, as well as a template for that all-important business plan executive summary. The CD also features loads of fill-in templates including customer and competitor analysis surveys, sample press releases, letters of agreement, demographic and target market worksheets, and cost benefit forms. If you have a marketing need, this book has an effective template to meet that need.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781439803202"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "143980320X"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 336,
+    "printType": "BOOK",
+    "categories": [
+     "Business & Economics"
+    ],
+    "contentVersion": "0.0.2.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://bks6.books.google.com/books?id=ZjCGYOdb5bMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://bks6.books.google.com/books?id=ZjCGYOdb5bMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=ZjCGYOdb5bMC&pg=PA293&dq=search+terms:keyes&hl=&cd=8&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=ZjCGYOdb5bMC&dq=search+terms:keyes&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Marketing_IT_Products_and_Services.html?hl=&id=ZjCGYOdb5bMC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 71.95,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 57.56,
+     "currencyCode": "USD"
+    },
+    "buyLink": "http://books.google.com/books?id=ZjCGYOdb5bMC&dq=search+terms:keyes&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 7.195E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 5.756E7,
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Marketing_IT_Products_and_Services-sample-epub.acsm?id=ZjCGYOdb5bMC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Marketing_IT_Products_and_Services-sample-pdf.acsm?id=ZjCGYOdb5bMC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=ZjCGYOdb5bMC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Jessica \u003cb\u003eKeyes\u003c/b\u003e. Grand opening event: A promotional activity held by newly \u003cbr\u003e\nestablished businesses to notify the public of their location, and ... Head \u003cb\u003eterms\u003c/b\u003e: \u003cbr\u003e\n\u003cb\u003eSearch terms\u003c/b\u003e that are short, popular, and straightforward; for example, helicopter \u003cbr\u003e\nskiing."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "LbmL1pKL3dMC",
+   "etag": "1mqzEF1TUcQ",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/LbmL1pKL3dMC",
+   "volumeInfo": {
+    "title": "Sammy Keyes and the Sisters of Mercy",
+    "authors": [
+     "Wendelin Van Draanen"
+    ],
+    "publisher": "Yearling",
+    "publishedDate": "2008-12-24",
+    "description": "\"The most winning junior detective ever in teen lit. (Take that, Nancy Drew!)\" —Midwest Children's Book Review Sammy was working off some junior high detention time by helping out at St. Mary's, but now she's the prime suspect in a robbery! The more she pokes around searching for the real culprit, the more amazed Sammy is by all the gossip and petty jealousies bubbling beneath the church's serene surface. This is just like junior high! Caught up in the mystery are a homeless girl in hightops, a trio of singing nuns, two angry Sisters, and one bumbling Brother. With a crazy cast like this, it's not easy to tell the saints from the sinners. . . . The Sammy Keyes mysteries are fast-paced, funny, thoroughly modern, and true whodunits. Each mystery is exciting and dramatic, but it's the drama in Sammy's personal life that keeps readers coming back to see what happens next with her love interest Casey, her soap-star mother, and her mysterious father. From the Hardcover edition.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780307545404"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0307545407"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 240,
+    "printType": "BOOK",
+    "categories": [
+     "Juvenile Fiction"
+    ],
+    "averageRating": 3.0,
+    "ratingsCount": 18,
+    "contentVersion": "1.5.2.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://bks1.books.google.com/books?id=LbmL1pKL3dMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://bks1.books.google.com/books?id=LbmL1pKL3dMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=LbmL1pKL3dMC&printsec=frontcover&dq=search+terms:keyes&hl=&cd=9&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=LbmL1pKL3dMC&dq=search+terms:keyes&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Sammy_Keyes_and_the_Sisters_of_Mercy.html?hl=&id=LbmL1pKL3dMC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 3.15,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 2.52,
+     "currencyCode": "USD"
+    },
+    "buyLink": "http://books.google.com/books?id=LbmL1pKL3dMC&dq=search+terms:keyes&hl=&buy=&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 3150000.0,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 2520000.0,
+       "currencyCode": "USD"
+      }
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Sammy_Keyes_and_the_Sisters_of_Mercy-sample-epub.acsm?id=LbmL1pKL3dMC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Sammy_Keyes_and_the_Sisters_of_Mercy-sample-pdf.acsm?id=LbmL1pKL3dMC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=LbmL1pKL3dMC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "The more she pokes around searching for the real culprit, the more amazed Sammy is by all the gossip and petty jealousies bubbling beneath the church&#39;s serene surface. This is just like junior high!"
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "F1wgqlNi8AMC",
+   "etag": "7HHTj1ogfGQ",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/F1wgqlNi8AMC",
+   "volumeInfo": {
+    "title": "Flowers for Algernon",
+    "subtitle": "A Full-length Play",
+    "authors": [
+     "David Rogers",
+     "Daniel Keyes"
+    ],
+    "publisher": "Dramatic Publishing",
+    "publishedDate": "1969",
+    "description": "The compelling story of Charlie Gordon, willing victim of a strange experiment - a moron, a genius, a man in search of himself. Poignant, funny, tragic, but with a hope for the indomitable spirit of man, this unusual play tells a story you will long remember. It also offers a magnificent role.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0871295377"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780871295378"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 117,
+    "printType": "BOOK",
+    "categories": [
+     "American drama"
+    ],
+    "contentVersion": "0.0.1.0.preview.1",
+    "imageLinks": {
+     "smallThumbnail": "http://bks5.books.google.com/books?id=F1wgqlNi8AMC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://bks5.books.google.com/books?id=F1wgqlNi8AMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=F1wgqlNi8AMC&printsec=frontcover&dq=search+terms:keyes&hl=&cd=10&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=F1wgqlNi8AMC&dq=search+terms:keyes&hl=&source=gbs_api",
+    "canonicalVolumeLink": "http://books.google.com/books/about/Flowers_for_Algernon.html?hl=&id=F1wgqlNi8AMC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://books.google.com/books/reader?id=F1wgqlNi8AMC&hl=&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "The compelling story of Charlie Gordon, willing victim of a strange experiment - a moron, a genius, a man in search of himself."
+   }
+  }
+ ]
+}
