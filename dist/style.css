@@ -1,13 +1,5 @@
-/*Marco Updates*/
 @import url(http://fonts.googleapis.com/css?family=Halant:300,400);
 
-body {
-	background-image: url(http://fc03.deviantart.net/fs71/i/2010/361/3/4/background_light_by_ivegotswagger-d35rnub.png);
-	background-size: 100%;
-	background-position: cover;
-	background-repeat: no-repeat;
-
-}
 #container {
     width:960px;
     margin:20px auto;
@@ -67,9 +59,91 @@ padding-left: 6px;
     clear:both;
     border-top: 1px solid black;
 }
-/*End M Updates*/
+.moose {
+    position: relative;
+    margin: 40px auto 0;
+    width: 200px;
+}
+
+/*Left-Antler*/
+
+/*Eyes and pupils*/
+
+.pupil {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    background: #000;
+}
+
+.eye {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    background: #fff;
+    border-right: 10px solid black;
+}
+.eye:nth-child(2) {
+    left: 98px;
+}
+.eyes {
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    width: 110px;
+    height: 110px;
+    border-radius: 55px;
+    background: black;
+    border: 2px solid black;
+}
+.eyes::before {
+    position: absolute;
+    left: 88px;
+    display: block;
+    width: 110px;
+    height: 110px;
+    border-radius: 55px;
+    background: black;
+    border: 2px solid black;
+    content: '';
+}
+
+/*Nose*/
+
+.nose {
+    position: absolute;
+    top: 70px;
+    left: 57px;
+    display: block;
+    border-radius: 50%;
+    width: 68px;
+    height: 103px;
+    background-color: #D37E56;
+    border: 4px solid black;
+    content: '';
+}
+.nose2 {
+    position: absolute;
+    top: 40px;
+    left: 38px;
+    display: block;
+    border-radius: 50%;
+    width: 0px;
+    height: 4px;
+    background-color: brown;
+    border: 4px solid black;
+    content: '';
+}
+
+
 /*Head Set-up*/
-/*
+
 .head {
     position: absolute;
     width: 160px;
@@ -78,7 +152,7 @@ padding-left: 6px;
     background: #FFDDC6;
     border: 4px solid black;
 }
-*/
+
 /*Body and arms and feet*/
 
 

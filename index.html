@@ -9,7 +9,27 @@
 </head>
 
 <body>
-    <div>
+<!--M Updates-->    
+<div id="container">
+    <div id="header"> <span id="one">BOOK</span>       <form><input type="submit" value="Search"> <input type="text" name="FirstName" placeholder="Type Genre"><span id="two">SNOB</span>
+  
+    </div>
+    
+    <div id="viewerCanvas" style="width: 600px; height: 500px">
+        main content here
+    </div>
+    
+    <div id="sidebar">
+        sidebar content here
+    </div>
+    
+    <div id="footer">
+        footer content here
+    </div>
+</div>
+
+
+    <!--<div>
         <svg>
 
             <defs>
@@ -117,7 +137,7 @@
     </ul>
 
     <button class="delete">Delete</button>
-</script>
+</script>  
 
     <script type="text/javascript" src="./bower_components/Loader/loader.js" id="loaderjs" data-app="./js/app.js"></script>
     <script src="./js/models/book.js"></script>
@@ -127,10 +147,20 @@
     
 </body>
 
-</html>
+</html>  -->
 
 
+   <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("books", "0");
 
+      function initialize() {
+        var viewer = new google.books.DefaultViewer(document.getElementById('viewerCanvas'));
+        viewer.load('ISBN:0738531367');
+      }
+
+      google.setOnLoadCallback(initialize);
+    </script>
 
 
     <script type="text/javascript" src="./bower_components/Loader/loader.js" id="loaderjs" data-app="./js/app.js"></script>
