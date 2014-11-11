@@ -1,6 +1,6 @@
 (function(window, undefined) {
-    "use strict";
-    
+    //"use strict";
+
     var containerView = Backbone.View.extend({
         tagName: "div",
         idName: "container",
@@ -34,34 +34,31 @@
             this.options.search,
             "terms:",
             this.options.terms,
-            "keyes&key=AIzaSyBU9KgSbBKQMno6QgEoB75TPSRN1c16fLI",
+            "keyes&key=",
             this.options.key,
         ];
-        return $get(url.join('')).then(function() {
-            return arguments[0];
+        return $.get(url.join('')).then(function(data) {
+            return data;
         });
     };
-    GoogleBook.prototype.makeGoogleBookRequest = function(input) {
+    GoogleBook.prototype.makeGoogleBookRequest = function(data) {
         $.when(
-            this.queryAPI("search", input)
-        ).then(function() {
-            if (!arguments[0] ||
-                !arguments[0].response ||
-                !arguments[0].response.books ||
-                !(arguments[0].response.books instanceof Array)
+            this.queryAPI("items", data)
+        ).then(function(data) {
+            console.log(data);
+            //debugger;
+            if (!(data.items instanceof Array)
+
             ) {
-                throw new Error("array of books from queryAPI");
+                throw new Error("Shit Doesn't Work!");
             }
-            arguments[0].response.books.forEach(function(data) {
+            data.items.forEach(function(data) {
                 new ContainerView(data);
             });
         });
     };
     GoogleBook.prototype.init = function() {
-        var self = this;
-        this.GoogleBook().then(function(input) {
-            self.makeGoogleBookRequest(input);
-        });
+        this.makeGoogleBookRequest("The Alchemist");
 
     };
     window.GoogleBook = GoogleBook;
