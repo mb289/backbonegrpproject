@@ -22,10 +22,10 @@
             this.options.$container.append(this.el);
             this.render();
         },
-        template: "<h1>{volumeInfo.description}</h1>",
+        template: "<img src={volumeInfo.imageLinks.thumbnail}/>",
         render: function() {
-
-            this.el.innerHTML = _.template(this.template, this.model);
+    
+            this.el.innerHTML = _.template(this.template, this.model.attributes);
         }
     });
 
@@ -51,7 +51,6 @@
         apikey: "AIzaSyBU9KgSbBKQMno6QgEoB75TPSRN1c16fLI",
 
         url: function(){
-
             return [
             "https://www.googleapis.com/books/v1/volumes?q=",
             this.createInputObject().genre,
@@ -61,6 +60,7 @@
         },
 
         parse: function(data){
+            console.log(data);
             return data.items;
         },
 
