@@ -14,12 +14,13 @@
             this.options.$container.append(this.el);
             this.render();
         },
-        template: "<h1>{volumeInfo.description}</h1>",
+        template: "<img src={volumeInfo.imageLinks.thumbnail}/><h4>{volumeInfo.title}</h4><h5>{volumeInfo.authors}</h5><h5>{volumeInfo.categories}</h5><h5>{volumeInfo.description}</h5>",
         render: function() {
 
             this.el.innerHTML = _.template(this.template, this.model);
         }
     });
+    
 
     function GoogleBook(options) {
             this.options = _.extend({}, options, {
