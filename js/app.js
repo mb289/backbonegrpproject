@@ -17,8 +17,10 @@ function app() {
         url: "./js/views/book.js"
     }).then(function() {
         _.templateSettings.interpolate = /{([\s\S]+?)}/g;
+        
         var items = new GoogleBook();
         //start app?
     })
 
 }
+

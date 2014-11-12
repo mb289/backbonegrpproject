@@ -14,9 +14,10 @@
             this.options.$container.append(this.el);
             this.render();
         },
-        template: "<h1>{title}</h1><hr><ul><li>{authors}</li><li>{categories}</li></ul>",
+        template: "<h1>{volumeInfo.description}</h1>",
         render: function() {
-            this.el.innerHTML = _.template(this.template, this.options);
+
+            this.el.innerHTML = _.template(this.template, this.model);
         }
     });
 
@@ -24,26 +25,42 @@
             this.options = _.extend({}, options, {
                 key: "AIzaSyBU9KgSbBKQMno6QgEoB75TPSRN1c16fLI",
             });
-            this.init();
+            this.Routing();
         }
         //https://www.googleapis.com/books/v1/volumes?q=search+terms:keyes&key=AIzaSyBU9KgSbBKQMno6QgEoB75TPSRN1c16fLI
-    GoogleBook.prototype.queryAPI = function(search, terms) {
+    
+    GoogleBook.prototype.createInputObject = function(){
+
+        var input = {};
+        $(':input').each(function(){
+            input[this.name] = this.value;
+        });
+        console.log(input);
+        return input;
+    }
+
+    GoogleBook.prototype.queryAPI = function() {
+        
+        var input = this.createInputObject();
+
         var url = [
             "https://www.googleapis.com/books/v1/volumes",
-            "?q=search+",
-            this.options.search,
-            "terms:",
-            this.options.terms,
-            "keyes&key=",
+            "?q=",
+            input.genre,
+            "&key=",
             this.options.key,
-        ];
-        return $.get(url.join('')).then(function(data) {
+        ].join('');
+        
+        console.log(url);
+        
+        return $.get(url).then(function(data) {
+            console.log(data);
             return data;
         });
     };
     GoogleBook.prototype.makeGoogleBookRequest = function(data) {
         $.when(
-            this.queryAPI("items", data)
+            this.queryAPI(data)
         ).then(function(data) {
             console.log(data);
             //debugger;
@@ -53,13 +70,26 @@
                 throw new Error("Shit Doesn't Work!");
             }
             data.items.forEach(function(data) {
-                new ContainerView(data);
+                new containerView({ model: data});
             });
         });
     };
-    GoogleBook.prototype.init = function() {
-        this.makeGoogleBookRequest("The Alchemist");
+    
+    GoogleBook.prototype.Routing = function() {
+        
+        var self = this;
 
-    };
+        Path.map("#/results").to(function(){
+
+            self.makeGoogleBookRequest();
+
+    });
+
+        Path.root("#/")
+        Path.listen();
+};
+
+
     window.GoogleBook = GoogleBook;
+
 })(window, undefined);
