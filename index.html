@@ -10,20 +10,22 @@
 
 <body>
 
-    <!--M Updates-->
-    <div id="container">
+
+     <div id="container">
         <div id="header">
             <span id="one">BOOK</span>
             <form>
-                <input type="submit" value="Search">
-                <input type="text" name="FirstName" placeholder="Type Genre">
+               <!--  <input type="submit" value="Search"> -->
+                
+                <a href="#/results" class="button">Submit</a>
+
+                <input type="text" name="genre" placeholder="Type Genre">
                 <span id="two">SNOB</span>
 
         </div>
 
-        <div id="viewerCanvas" style="width: 600px; height: 500px">
-            main content here
-        </div>
+       <div class="grid grid-3-800" id="booklistings"></div>
+</div>
 
         <div id="sidebar">
             sidebar content here
@@ -36,9 +38,8 @@
 
 
 
-
     <script type="text/javascript" src="./bower_components/Loader/loader.js" id="loaderjs" data-app="./js/app.js"></script>
-
+   
 
 </body>
 
