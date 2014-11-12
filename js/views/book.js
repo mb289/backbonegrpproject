@@ -1,70 +1,97 @@
 (function(window, undefined) {
-    "use strict";
-    
-    var containerView = Backbone.View.extend({
-        tagName: "div",
-        idName: "container",
-        initialize: function(opts) {
-            this.options = _.extend({}, {
-                    $container: $('#viewerCanvas')
-                },
-                opts
-            );
-            //put element into DOM
-            this.options.$container.append(this.el);
-            this.render();
-        },
-        template: "<h1>{title}</h1><hr><ul><li>{authors}</li><li>{categories}</li></ul>",
-        render: function() {
-            this.el.innerHTML = _.template(this.template, this.options);
-        }
-    });
+    //"use strict";
 
-    function GoogleBook(options) {
-            this.options = _.extend({}, options, {
-                key: "AIzaSyBU9KgSbBKQMno6QgEoB75TPSRN1c16fLI",
-            });
-            this.init();
-        }
-        //https://www.googleapis.com/books/v1/volumes?q=search+terms:keyes&key=AIzaSyBU9KgSbBKQMno6QgEoB75TPSRN1c16fLI
-    GoogleBook.prototype.queryAPI = function(search, terms) {
-        var url = [
-            "https://www.googleapis.com/books/v1/volumes",
-            "?q=search+",
-            this.options.search,
-            "terms:",
-            this.options.terms,
-            "keyes&key=AIzaSyBU9KgSbBKQMno6QgEoB75TPSRN1c16fLI",
-            this.options.key,
-        ];
-        return $get(url.join('')).then(function() {
-            return arguments[0];
-        });
-    };
-    GoogleBook.prototype.makeGoogleBookRequest = function(input) {
-        $.when(
-            this.queryAPI("search", input)
-        ).then(function() {
-            if (!arguments[0] ||
-                !arguments[0].response ||
-                !arguments[0].response.books ||
-                !(arguments[0].response.books instanceof Array)
-            ) {
-                throw new Error("array of books from queryAPI");
-            }
-            arguments[0].response.books.forEach(function(data) {
-                new ContainerView(data);
-            });
-        });
-    };
-    debugger
-    GoogleBook.prototype.init = function() {
-        var self = this;
+    var containerView = Backbone.View.extend({
+        tagName: "div",
+        idName: "container",
+        initialize: function(opts) {
+            this.options = _.extend({}, {
+                    $container: $('.grid')
+                },
+                opts
+            );
+            //put element into DOM
+            this.options.$container.append(this.el);
+            this.render();
+        },
+        
+        template: "<img src={volumeInfo.imageLinks.thumbnail}/>",
+        render: function() {
 
-        this.GoogleBook().then(function(input) {
-            self.makeGoogleBookRequest(input);
-        });
+            this.el.innerHTML = _.template(this.template, this.model);
+        }
+    });
+    
 
-    };
-    window.GoogleBook = GoogleBook;
+    function GoogleBook(options) {
+            this.options = _.extend({}, options, {
+                key: "AIzaSyBU9KgSbBKQMno6QgEoB75TPSRN1c16fLI",
+            });
+            this.Routing();
+        }
+        //https://www.googleapis.com/books/v1/volumes?q=search+terms:keyes&key=AIzaSyBU9KgSbBKQMno6QgEoB75...
+    
+    GoogleBook.prototype.createInputObject = function(){
+
+        var input = {};
+        $(':input').each(function(){
+            input[this.name] = this.value;
+        });
+        console.log(input);
+        return input;
+    }
+
+    GoogleBook.prototype.queryAPI = function() {
+        
+        var input = this.createInputObject();
+
+        var url = [
+            "https://www.googleapis.com/books/v1/volumes",
+            "?q=",
+            input.genre,
+            "&key=",
+            this.options.key,
+        ].join('');
+        
+        console.log(url);
+        
+        return $.get(url).then(function(data) {
+            console.log(data);
+            return data;
+        });
+    };
+    GoogleBook.prototype.makeGoogleBookRequest = function(data) {
+        $.when(
+            this.queryAPI(data)
+        ).then(function(data) {
+            console.log(data);
+            //debugger;
+            if (!(data.items instanceof Array)
+
+            ) {
+                throw new Error("Shit Doesn't Work!");
+            }
+            data.items.forEach(function(data) {
+                new containerView({ model: data});
+            });
+        });
+    };
+    
+    GoogleBook.prototype.Routing = function() {
+        
+        var self = this;
+
+        Path.map("#/results").to(function(){
+
+            self.makeGoogleBookRequest();
+
+    });
+
+        Path.root("#/")
+        Path.listen();
+};
+
+
+    window.GoogleBook = GoogleBook;
+
 })(window, undefined);
