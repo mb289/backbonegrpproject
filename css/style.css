@@ -1,18 +1,43 @@
+
+/*Marco Updates*/
 @import url(http://fonts.googleapis.com/css?family=Halant:300,400);
 
 body {
-    background-image: url(http://fc03.deviantart.net/fs71/i/2010/361/3/4/background_light_by_ivegotswagger-d35rnub.png);
-    background-size: 100%;
-    background-position: cover;
-    background-repeat: no-repeat;
+	background-image: url(http://fc03.deviantart.net/fs71/i/2010/361/3/4/background_light_by_ivegotswagger-d35rnub.png);
+	background-size: 100%;
+	background-position: cover;
+	background-repeat: no-repeat;
+
 
 }
 #container {
     width:960px;
     margin:20px auto;
+    float: left;
 }
 
 #header {
+	border-bottom: 2px solid black;
+	height:58px;
+}
+
+input {
+	margin-top:24px;
+}
+
+span {
+	font-size: 100px;
+	font-family: 'Halant', serif;
+}
+
+#one {
+	float: left;
+	line-height: 52px;
+}
+
+#two {
+	float: right;
+	line-height: 52px;
     border-bottom: 2px solid black;
     height:58px;
 }
@@ -36,23 +61,48 @@ span {
     line-height: 52px;
 }
 
-#viewerCanvas {
-   width: 600px;
-height: 500px;
-border: 0px;
-color: rgb(0, 0, 0);
-font-family: Arial, sans-serif;
-font-size: 13.28px;
-font-weight: normal;
-line-height: 1;
-padding: 0px;
-text-align: left;
-text-decoration: none;
-vertical-align: middle;
-float: left;
-display: inline-block;
-background-color: transparent;
+.grid {
+    display: block;
+    font-size: 0;
+    text-align: justify;
+    margin: 0 auto;
 }
+.grid:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+}
+.grid > * {
+    font-size: medium;
+vertical-align: top;
+text-align: left;
+/* background-color: darkkhaki; */
+/* text-decoration: none; */
+/* border: 2px solid black; */
+padding: 2px;
+text-align: center;
+margin-left: 30px;
+margin-bottom: 20px;
+border-style: outset;
+box-shadow: -3px 44px 67px -3px black;
+float: left;
+}
+/*#viewerCanvas {
+position: relative;
+    display: inline-block;
+    border: 2px solid grey;
+    background: transparent;
+    padding: 4px;
+    text-align: center;
+    font-size: 15px;
+    width: 250px;
+    margin-left: 20px;
+    box-shadow: -3px 44px 67px -3px black;
+    border-style: outset;
+    color: white;
+    background-image: url(http://www.psdgraphics.com/file/empty-shelf.jpg);
+    background-size: 100%;
+}*/
 
 #sidebar {
     float: left;
