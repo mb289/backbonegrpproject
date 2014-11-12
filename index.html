@@ -11,35 +11,53 @@
 <body>
 
 
-     <div id="container">
+    <div id="container">
         <div id="header">
             <span id="one">BOOK</span>
             <form>
-               <!--  <input type="submit" value="Search"> -->
-                
+                <!--  <input type="submit" value="Search"> -->
+
                 <a href="#/results" class="button">Submit</a>
 
                 <input type="text" name="genre" placeholder="Type Genre">
                 <span id="two">SNOB</span>
+            </form>
 
-        </div>
 
-       <div class="grid grid-3-800" id="booklistings"></div>
-</div>
 
-        <div id="sidebar">
-            sidebar content here
-        </div>
-
-        <div id="footer">
-            footer content here
+            <div class="grid grid-3-800" id="booklistings"></div>
         </div>
     </div>
+    <div id="rightContainer">
+        <div id="sidebar"></div>
+    </div>
 
-
+    <div id="footer">
+        footer content here
+    </div>
 
     <script type="text/javascript" src="./bower_components/Loader/loader.js" id="loaderjs" data-app="./js/app.js"></script>
-   
+    <script id="bookTemplate" type="text/template">
+        <img src={volumeInfo.imageLinks.thumbnail}/>
+        <ul>
+            <li>
+                <h4>{volumeInfo.title}</h4>
+            </li>
+            <li>{volumeInfo.authors}</li>
+            <li>{volumeInfo.description}</li>
+        </ul>
+    </script>
+    <script id="footTemplate" type="text/template">
+        <ul>
+            <li>
+                <h4>{volumeInfo.title}</h4>
+            </li>
+            <li>
+                <h5>{volumeInfo.subtitle}</h5>
+            </li>
+        </ul>
+    </script>
+
 
 </body>
 

@@ -14,6 +14,8 @@ function app() {
     }, {
         url: "./bower_components/pathjs/path.min.js"
     }, {
+        url: "./js/jqpubsub.js"
+    }, {
         url: "./js/views/book.js"
     }).then(function() {
         _.templateSettings.interpolate = /{([\s\S]+?)}/g;
