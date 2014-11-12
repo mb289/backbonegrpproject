@@ -5,12 +5,12 @@
         this.Routing = new bookRouting();
     }
 
-    var ContainerView = Backbone.View.extend({
+    var LeftView = Backbone.View.extend({
         tagName: "div",
         idName: "container",
         initialize: function(opts) {
             this.options = _.extend({}, {
-                    $container: $('#viewerCanvas')
+                    $container: $('#booklistings')
                 },
                 opts
             );
@@ -19,14 +19,46 @@
             this.render();
         },
         template: "<img src={volumeInfo.imageLinks.thumbnail}/>",
+
+        events: {
+            "click": "handleClick"
+        },
+        handleClick: function(event){
+            $.publish("bookSelected", this.model);
+        },
+
         render: function() {
             this.el.innerHTML = _.template(this.template, this.model.attributes);
         }
     });
 
+    var RightView = Backbone.View.extend({
+        tagName: "div",
+        idName: "container",
+        initialize: function(opts) {
+            this.options = _.extend({}, opts);
+            
+            var self = this;
+            $.subscribe("bookSelected", function(event, data){
+                //data is the model passed from $.publish()
+                self.render(data);
+            })
+        },
+        
+        templateHTML: $('#rightContainer').html(),
+        render: function(data) {
+            this.el.innerHTML = _.template(this.templateHTML, data);
+        }
+    });
+
+
+
     var BookListing = Backbone.Model.extend({
         initialize: function() {
-            this.view = new ContainerView({
+            this.view = new LeftView({
+                model: this
+            });
+            this.view = new RightView({
                 model: this
             });
         }
