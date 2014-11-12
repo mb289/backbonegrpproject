@@ -5,7 +5,7 @@
         this.Routing = new bookRouting();
     }
 
-    var LeftView = Backbone.View.extend({
+    var BookView = Backbone.View.extend({
         tagName: "div",
         idName: "container",
         initialize: function(opts) {
@@ -23,49 +23,40 @@
         events: {
             "click": "handleClick"
         },
-        handleClick: function(event){
+        handleClick: function(event) {
             $.publish("bookSelected", this.model);
         },
-
         render: function() {
             this.el.innerHTML = _.template(this.template, this.model.attributes);
         }
     });
 
-    var RightView = Backbone.View.extend({
-        tagName: "div",
-        idName: "container",
+    var BookDetailsView = Backbone.View.extend({
+        el: document.querySelector("#rightContainer"),
         initialize: function(opts) {
             this.options = _.extend({}, opts);
-            
             var self = this;
-            $.subscribe("bookSelected", function(event, data){
+            $.subscribe("bookSelected", function(event, data) {
                 //data is the model passed from $.publish()
                 self.render(data);
             })
         },
-        
-        templateHTML: $('#rightContainer').html(),
-        render: function(data) {
-            this.el.innerHTML = _.template(this.templateHTML, data);
+
+        templateHTML: $('#bookTemplate').html(),
+        render: function(model) {
+            this.el.innerHTML = _.template(this.templateHTML, model.attributes);
         }
     });
 
-
-
     var BookListing = Backbone.Model.extend({
         initialize: function() {
-            this.view = new LeftView({
-                model: this
-            });
-            this.view = new RightView({
+            this.view = new BookView({
                 model: this
             });
         }
     });
 
     var BookListings = Backbone.Collection.extend({
-
         createInputObject: function() {
             var input = {};
             $(':input').each(function() {
@@ -92,24 +83,25 @@
             return data.items;
         },
 
-        startRequests: function(){
-            if(this.createInputObject().genre){
+        startRequests: function() {
+            if (this.createInputObject().genre) {
                 return this.fetch();
             }
         }
-
     });
 
     var AppView = Backbone.View.extend({
         el: document.querySelector('body'),
-        initialize: function(){
+        initialize: function() {
             this.bookCollection = new BookListings();
+            this.detailsView = new BookDetailsView();
         },
         events: {
             "submit form": "search"
         },
-        search: function(event){
+        search: function(event) {
             event.preventDefault();
+            $('#booklistings').html("");
             this.bookCollection.startRequests();
         }
     })
