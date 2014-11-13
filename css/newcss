@@ -1,0 +1,88 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+*, *:before, *:after {
+    box-sizing: border-box;
+    font: 300 1em/1.5'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    color: #666;
+    padding: 0;
+    margin: -25px;
+}
+html, body {
+    background: rgb(236, 240, 241);
+}
+section.container {
+    width: 20%;
+    min-width: 300px;
+    margin: 5% auto;
+}
+label {
+    display: none;
+}
+input.genre {
+  cursor: pointer;
+    border: none;
+    outline: none;
+    width: 75px;
+    border-radius: 55px;
+    margin: 0 auto;
+    font-size: 2em;
+    color: #0d2840;
+    padding: 25px 70px 25px 35px;
+    transition: all .3s cubic-bezier(0, 0, .5, 1.5);
+    box-shadow: 0 3px 10px -2px rgba(0, 0, 0, .1);
+    background: rgb(255, 255, 255) url(http://i.imgur.com/seveWIw.png) no-repeat center center;
+}
+input.genre:focus {
+    width: 100%;
+    background-position: calc(100% - 35px) center
+}
+/*Removes default x in search fields (webkit only i guess)*/
+
+input[type=search]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+/*Changes the color of the placeholder*/
+
+::-webkit-input-placeholder {
+    color: #0d2840;
+    opacity: .5;
+}
+:-moz-placeholder {
+    color: #0d2840;
+    opacity: .5;
+}
+::-moz-placeholder {
+    color: #0d2840;
+    opacity: .5;
+}
+:-ms-input-placeholder {
+    color: #0d2840;
+    opacity: .5;
+}
+
+h1 {
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+  color: white;
+  font-size: 600%;
+  text-align: center;
+
+
+}
+
+img {
+  width:100px;
+}
+.shadow {
+    -webkit-filter: drop-shadow( 0px 7px 2px #d3d3d3 );
+            filter: drop-shadow( 0px 7px 2px #d3d3d3 ); /* Same syntax as box-shadow */
+}

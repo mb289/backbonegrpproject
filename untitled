@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <link rel="stylesheet" type="text/css" href="./bower_components/normalize.css/normalize.css">   
+    <link rel="stylesheet" type="text/css" href="./bower_components/typeplate-starter-kit/css/typeplate.css">   
+    <link rel="stylesheet" href="./css/style.css">   
+    <title></title>
+</head>
+
+<body>
+<div class="w">
+<span id="Name"><h1>BOOK    SNOB|<img src="file:///Users/bernalmjr/Downloads/despicable-me-gru-silhouette-ns1zgzik%20(1).svg" class="shadow" id="shake"></h1><span id="circle"><span id="nose"></span></span></span>
+
+<section class="container">
+  <label for="genre"></label>
+  <input class="genre" 
+         name="genre"
+         id="ghusername" 
+         type="search">
+
+<a href="#" id="ghsubmitbtn"></a>
+</section>
+
+    <div id="ghapidata" class="clearfix"></div>
+
+</div>    
+<script type="text/javascript" src="./bower_components/Loader/loader.js" id="loaderjs" data-app="./js/app.js"></script>
+
+</body>
+
+</html>
