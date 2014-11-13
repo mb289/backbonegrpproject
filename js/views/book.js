@@ -1,14 +1,6 @@
 (function(window, undefined) {
     //"use strict";
-    var object = {};
-
-    _.extend(object, Backbone.Events);
-
-    object.on("alert", function(msg) {
-        alert("" + msg);
-    });
-
-    object.trigger("alert", "Welcome to our page");
+    
 
     function GoogleBook() {
         this.Routing = new bookRouting();
@@ -44,7 +36,7 @@
     });
 
     var BookDetailsView = Backbone.View.extend({
-        el: document.querySelector("#rightContainer"),
+        el: document.querySelector("#bookdetail"),
         initialize: function(opts) {
             this.options = _.extend({}, opts);
             var self = this;
@@ -144,7 +136,7 @@
         },
 
         showResults: function() {
-            // access the value of the input, if not empty then fetch
+            $('#bookdetail').html("");
             this.appView.bookCollection.startRequests();
         }
 
