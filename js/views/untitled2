@@ -27,7 +27,7 @@
         }
     });
 
-    var rightMainView = Backbone.View.extend({
+    var MainView = Backbone.View.extend({
         el: document.querySelector("#rightmain"),
         initialize: function(opts) {
             this.options = _.extend({}, opts);

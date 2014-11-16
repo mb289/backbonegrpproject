@@ -1,69 +1,110 @@
-@import url(http://fonts.googleapis.com/css?family=Halant:300,400);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+*, *:before, *:after {
+    box-sizing: border-box;
+    font: 300 1em/1.5'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    color: #666;
+    padding: 0;
+    margin: -9px;
+margin-left: 6px;
+}
+html, body {
+    background: rgb(236, 240, 241);
+}
+section.container {
+    width: 20%;
+    min-width: 300px;
+    margin: 5% auto;
+}
+label {
+    display: none;
+}
 
-body {
-background-image: url(http://fc03.deviantart.net/fs71/i/2010/361/3/4/background_light_by_ivegotswagger-d35rnub.png);
-background-size: 100%;
-background-position: cover;
-background-repeat: no-repeat;
+a {color: red}
+
+a:active {color: blue}
+.genre:hover{
+  background-color: grey;
+}
+
+form {
+  margin-left: -116px;
+}
+input.genre {
+  cursor: pointer;
+    border: none;
+    outline: none;
+    width: 2px;
+    border-radius: 55px;
+    margin: 0 auto;
+    font-size: 2em;
+    color: #0d2840;
+    padding: 25px 70px 25px 35px;
+    -webkit-transition: all .3s cubic-bezier(0, 0, .5, 1.5);
+            transition: all .3s cubic-bezier(0, 0, .5, 1.5);
+    box-shadow: 0 3px 10px -2px rgba(0, 0, 0, .1);
+    background: rgb(255, 255, 255) url(http://i.imgur.com/seveWIw.png) no-repeat center center;
+}
+input.genre:focus {
+    width: 100%;
+    background-position: calc(100% - 35px) center
+}
+/*Removes default x in search fields (webkit only i guess)*/
+
+input[type=search]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+/*Changes the color of the placeholder*/
+
+::-webkit-input-placeholder {
+    color: #0d2840;
+    opacity: .5;
+}
+:-moz-placeholder {
+    color: #0d2840;
+    opacity: .5;
+}
+::-moz-placeholder {
+    color: #0d2840;
+    opacity: .5;
+}
+:-ms-input-placeholder {
+    color: #0d2840;
+    opacity: .5;
+}
+
+#loading {
+    position: absolute; 
+    width: 100%; 
+    height: 12%; 
+    background: url('http://s9.postimg.org/eikge0gu3/spinner_128_anti_alias.gif') no-repeat center center;
+    background-size: 3%;
+}
+
+h1 {
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+  color: white;
+  font-size: 600%;
+  text-align: center;
 
 
 }
-#container {
-    width:960px;
-    margin:20px auto;
-    float: left;
-}
-
-#header {
-border-bottom: 2px solid black;
-height:58px;
-}
-
-input {
-margin-top:24px;
-}
-
-span {
-font-size: 100px;
-font-family: 'Halant', serif;
-}
-
-#one {
-float: left;
-line-height: 52px;
-}
-
-#two {
-float: right;
-line-height: 52px;
-    border-bottom: 2px solid black;
-    height:58px;
-}
-
-input {
-    margin-top:24px;
-}
-
-span {
-    font-size: 100px;
-    font-family: 'Halant', serif;
-}
-
-#one {
-    float: left;
-    line-height: 52px;
-}
-
-#two {
-    float: right;
-    line-height: 52px;
-}
-
 .grid {
     display: block;
     font-size: 0;
     text-align: justify;
-    margin: 0 auto;
+    margin-left: 400px;
+    margin-top:;
 }
 .grid:after {
     content: "";
@@ -82,35 +123,17 @@ text-align: center;
 margin-left: 30px;
 margin-bottom: 20px;
 border-style: outset;
-box-shadow: -3px 44px 67px -3px black;
+box-shadow: -3px 44px 67px -3px rgb(86, 81, 81);
 float: left;
 }
-/*#viewerCanvas {
-position: relative;
-    display: inline-block;
-    border: 2px solid grey;
-    background: transparent;
-    padding: 4px;
-    text-align: center;
-    font-size: 15px;
-    width: 250px;
-    margin-left: 20px;
-    box-shadow: -3px 44px 67px -3px black;
-    border-style: outset;
-    color: white;
-    background-image: url(http://www.psdgraphics.com/file/empty-shelf.jpg);
-    background-size: 100%;
-}*/
 
-#rightContainer {
-    float: left;
-width: 338px;
-height: 600px;
-border-left: 5px solid black;
-padding-left: 6px;
+img {
+  width:106px;
+
+}
+.shadow {
+    -webkit-filter: drop-shadow( 0px 7px 2px #d3d3d3 );
+            filter: drop-shadow( 0px 7px 2px #d3d3d3 ); /* Same syntax as box-shadow */
 }
 
-#footer {
-    clear:both;
-    border-top: 5px solid black;
-}
+
