@@ -136,4 +136,68 @@ img {
             filter: drop-shadow( 0px 7px 2px #d3d3d3 ); /* Same syntax as box-shadow */
 }
 
+#booklistings:-webkit-full-screen {
+  display: block;
+  max-width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+}
+
+#booklistings:-moz-full-screen {
+  display: block;
+  max-width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+}
+
+#booklistings:-ms-fullscreen {
+  display: block;
+  max-width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+}
+
+#booklistings:fullscreen {
+  display: block;
+  max-width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+}
+
+div:-moz-full-screen #booklistings {
+  position: fixed;
+}
+
+div:-ms-fullscreen #booklistings{
+  width: auto;
+}
+
+div:-ms-fullscreen #booklistings {
+  position: fixed;
+}
+
+div:-webkit-full-screen #booklistings {
+  position: fixed;
+}
+
+div:fullscreen #booklistings {
+  position: fixed;
+}
+
 

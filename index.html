@@ -26,7 +26,7 @@
 
 <a href="#" id="button"></a></form>
 </section>
-<div id="loading"></div>
+<div id="loader" style="position: fixed; top:0; left:0; width:20px; height: 20px; background: url('./css/loader.gif') center center #efefef"></div>
 
     <div id="booklistings" class="clearfix grid grid-3-800"></div>
 
@@ -36,11 +36,71 @@
 
   
 <script>
-  $('#button').on('click', function(e){
-    e.preventDefault();
-    $('#booklistings').html('<div id="loader"><img src="css/loader.gif" alt="loading..."></div>');
+$(document).ready(function() 
+{
+    $('#loader').hide();
+
+    $('form').submit(function() 
+    {
+        $('#loader').show();
+    }) 
+})
+
+// full-screen available?
+if (
+  document.fullscreenEnabled || 
+  document.webkitFullscreenEnabled || 
+  document.mozFullScreenEnabled ||
+  document.msFullscreenEnabled
+) {
+
+  // image container
+  var i = document.getElementById("booklistings");
+  
+  // click event handler
+  i.onclick = function() {
+  
+    // in full-screen?
+    if (
+      document.fullscreenElement ||
+      document.webkitFullscreenElement ||
+      document.mozFullScreenElement ||
+      document.msFullscreenElement
+    ) {
+
+      // exit full-screen
+      if (document.exitFullscreen) {
+        document.exitFullscreen();
+      } else if (document.webkitExitFullscreen) {
+        document.webkitExitFullscreen();
+      } else if (document.mozCancelFullScreen) {
+        document.mozCancelFullScreen();
+      } else if (document.msExitFullscreen) {
+        document.msExitFullscreen();
+      }
+    
+    }
+    else {
+    
+      // go full-screen
+      if (i.requestFullscreen) {
+        this.requestFullscreen();
+      } else if (i.webkitRequestFullscreen) {
+        i.webkitRequestFullscreen();
+      } else if (i.mozRequestFullScreen) {
+        i.mozRequestFullScreen();
+      } else if (i.msRequestFullscreen) {
+        i.msRequestFullscreen();
+      }
+    
+    }
+  
+  }
+
+
 
 </script>
+
 
 </body>
 
